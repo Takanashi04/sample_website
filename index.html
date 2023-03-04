@@ -3,13 +3,14 @@
     <head>
         <title>Railsチュートリアル初心者シリーズ</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
 
-        <div>
-            <a href="index.html">homeページ</a>
-            <a href="tags.html">HTMLタグ一覧</a>
-            <a href="moby_dick.html">読書案内『Moby Dick』</a>
+        <div class="nav-menu">
+            <a href="index.html" style="text-decoration: none;">homeページ</a>
+            <a href="tags.html" class="nav-spacing">HTMLタグ一覧</a>
+            <a href="moby_dick.html" class="nav-spacing">読書案内『Moby Dick』</a>
         </div>
         
         <h1>Learn Enoughのあらまし</h1>
@@ -22,13 +23,13 @@
         </a>
         RailsチュートリアルのTwitterフォローをお願いします:
         <a href="https://twitter.com/RailsTutorialJP"
-            target="_blank" rel="noopener">ここをクリック</a>。
+            target="_blank" rel="noopener">ここをクリック</a>
         </p>
 
         <p>
             HTMLは、初代Web「開発者」であるコンピューター科学者<a href="https://ja.wikipedia.org/wiki/
             %E3%83%86%E3%82%A3%E3%83%A0%E3%83%BB%E3%83%90%E3%83%BC%E3%83%8A%E3%83%BC%E3%82%BA%EF
-            %BC%9D%E3%83%AA%E3%83%BC">ティム・バーナーズ＝リー（Tim Berners-Lee）</a>によって作り出されま
+            %BC%9D%E3%83%AA%E3%83%BC">ティム・バーナーズ=リー（Tim Berners-Lee）</a>によって作り出されま
             した。サー・ティムは自分の猫画像を共有するためにHTMLを発明したという話は冗談ですが、そうだということに
             しておく方がクールではありませんか？
         </p>
@@ -37,8 +38,22 @@
             <img src="images/kitten.jpg" alt="愛くるしい子猫">
         </a>
 
+        <TAG style="padding: 0 auto;">名言</TAG>
+
         <p>
-            Learn Enough to Be Dangerous』は、技術の成熟（<em>technical sophistication</em>）を世に広める
+            本Webサイトでは、世界中から集めた多くの猫ちゃん動画のほかに、さまざまな名言もふんだんに掲載されています（おそらくここまでやったサイトはないでしょう）。
+        </p>
+
+        <blockquote styel="padding: 2px 20px; background-color: #fafafa;">
+            <p>
+                <em>インターネット上で見つけた名言をうのみにしてはならない。</em>
+                <br>
+                -エイブラハム・リンカーン(Abraham Lincoln)
+            </p>
+        </blockquote>
+
+        <p>
+            『Learn Enough to Be Dangerous』は、技術の成熟（<em>technical sophistication</em>）を世に広める
             運動のリーダーです。技術の成熟とは、コマンドを魔法のように操ってコンピュータを自在に使いこなす
             スキルのことです。技術の成熟には、コマンドライン、コーディング、キーボードショートカットの推測、
             エラーメッセージのググり方、行き詰まったら再起動すべきかどうかの判断など、あらゆるスキルが含まれ
